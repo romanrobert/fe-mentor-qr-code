@@ -20,8 +20,8 @@ body {
 }
 
 .qr {
-  margin-top: 50%;
   width: 100%;
+  margin-top: 10rem;
 }
 
 .qr__card {

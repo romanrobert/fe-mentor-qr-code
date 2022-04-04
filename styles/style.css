@@ -9,22 +9,33 @@
 
 html {
   scroll-behavior: smooth;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
   font-family: 'Outfit', sans-serif;
   padding: 0;
 }
 
 body {
-  max-width: 90rem;
-  margin: auto;
-  background-color: #7b879d;
+  background-color: #d6e2f0;
 }
 
-.qr {
-  width: 100%;
-  margin-top: 10rem;
+img {
+  max-width: 280px;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .qr__card {
+  width: 100%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -64,6 +75,6 @@ body {
 
 .content__text .light {
   margin-top: 24px;
-  color: #d6e2f0;
+  color: #7b879d;
 }
 /*# sourceMappingURL=style.css.map */

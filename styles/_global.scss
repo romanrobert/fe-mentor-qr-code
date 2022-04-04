@@ -8,11 +8,15 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
   font-family: 'Outfit', sans-serif;;
   padding: 0;}
 
 body {
-  max-width: 90rem;
-  margin: auto;
-  background-color: $grayish-blue;
+  
+  background-color: $light-gray;
+}
+
+img{
+    max-width: 280px;
 }

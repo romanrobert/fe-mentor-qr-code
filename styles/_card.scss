@@ -1,14 +1,16 @@
-.qr{
-   width: 100%;
-   margin-top: 10rem;
+body{
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
   
     
     
    
-}
+
 
 .qr__card{
-   
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -44,7 +46,7 @@
 }
    .light{
        margin-top: 24px;
-       color: $light-gray;
+       color: $grayish-blue;
    }
     
 }

@@ -1,0 +1,52 @@
+.qr{
+    margin-top: 50%;
+    
+    width: 100%;
+  
+    
+    
+   
+}
+
+.qr__card{
+   
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: $white;
+    width: 318px;
+    height: 498px;
+    border-radius: 18px;
+}
+
+.card__content{
+    max-width: 288px;
+    max-height: 288px;
+
+    img{
+        margin-top: 16px;
+        width: 100%;
+        
+        border-radius: 12px;
+        
+    }
+}
+
+.content__text{
+    max-width: 260px;
+    margin: auto;
+    font-size: $fp;
+    margin-top: 30px;
+    text-align: center;
+
+    .bold{
+    color: $dark-blue;
+    font-weight: 700;
+}
+   .light{
+       margin-top: 24px;
+       color: $light-gray;
+   }
+    
+}
+
